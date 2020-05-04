@@ -97,10 +97,10 @@
 #include "cpprest/details/web_utilities.h"
 
 // http
-//#include "cpprest/details/http_helpers.h"
-//#include "cpprest/http_client.h"
-//#include "cpprest/http_headers.h"
-//#include "cpprest/http_msg.h"
+#include "cpprest/details/http_helpers.h"
+#include "cpprest/http_client.h"
+#include "cpprest/http_headers.h"
+#include "cpprest/http_msg.h"
 
 // oauth
 #if !defined(_WIN32) || _WIN32_WINNT >= _WIN32_WINNT_VISTA
